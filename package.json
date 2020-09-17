@@ -1,0 +1,25 @@
+{
+  "name": "starwars-assessment",
+  "version": "1.0.0",
+  "description": "A nodejs backend accessment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "mysql": "^2.18.1",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
